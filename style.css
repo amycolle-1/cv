@@ -568,3 +568,19 @@ footer p:hover {
 .identite:hover img {
     transform: rotate(360deg) scale(1.2); /* rotation complète et agrandissement */
 }
+
+
+
+.btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background: #2575fc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+.btn:hover {
+    background: #43e97b;
+}
