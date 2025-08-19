@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #f4f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #2575fc;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #43e97b;
+            color: white;
+            font-size: 1.1em;
+            border-radius: 10px 10px 0 0;
+        }
+
+        tr:nth-child(even) {
+            background: #f0f0f0;
+        }
+
+        tr:hover {
+            background: #d1f7d6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2575fc;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        a:hover {
+            color: #43e97b;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur notre Portfolio</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Voir le CV</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alioune Badji</td>
+                    <td><a href="https://github.com/ton-repo/Alioune-Badji-CV" target="_blank">Ouvrir le CV</a></td>
+                </tr>
+                <tr>
+                    <td>Ousmane Faye</td>
+                    <td><a href="https://github.com/ton-repo/Personne2-CV" target="_blank">Ouvrir le CV</a></td>
+                </tr>
+                <tr>
+                    <td>Amy colle</td>
+                    <td><a href="https://github.com/ton-repo/Personne3-CV" target="_blank">Ouvrir le CV</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
