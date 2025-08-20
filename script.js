@@ -1,15 +1,20 @@
-let body= document.querySelector("body");
-let image_mode=document.getElementById("image_mode");
+let body = document.querySelector("body");
+let image_mode = document.getElementById("image_mode");
+let les_informations = document.querySelector(".les_informations");
 
-image_mode.addEventListener("click" , () => {
+image_mode.addEventListener("click", () => {
     body.classList.toggle("dark_mode");
 
-    if(body.classList.contains("dark_mode"))
-        image_mode.src="assets/icon/light.svg";
-    else
-        image_mode.src="assets/icon/dark.svg";
+    les_informations.classList.toggle("dark_mode");
 
-}); 
+    if(body.classList.contains("dark_mode")) {
+        image_mode.src = "assets/icon/light.svg";
+    } 
+    else {
+        image_mode.src = "assets/icon/dark.svg";
+    }
+});
+
 
 const Alioune={
     nom: "Badji",

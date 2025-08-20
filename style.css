@@ -21,6 +21,13 @@ body.dark_mode {
   color: white;
 }
 
+.les_informations.dark_mode {
+    background: #242323;
+    color: white; 
+}
+
+
+
 .profil {
     display: flex;
     justify-content: space-around;
