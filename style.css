@@ -7,7 +7,6 @@
 
 .body_sadia{
     margin: 15px 150px 15px 150px;
-    background-color: white;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
@@ -17,7 +16,7 @@
     align-items: center;
 }
 
-body.dark-mode {
+body.dark_mode {
   background-color: #242323;
   color: white;
 }
