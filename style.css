@@ -150,6 +150,7 @@ body.dark_mode {
     }
 }
 
+
 /* Titre de rubrique centré et fun */
 .rubrique1 {
     display: flex;
@@ -623,4 +624,24 @@ footer p:hover {
         }
 .btn:hover {
     background: #43e97b;
+}
+
+.haut_Amy{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+body.mode {
+    background-color: black;
+    color: white;
+}
+
+body.mode a {
+    color: yellow; /* pour voir les liens même en sombre */
+}
+
+body.mode footer {
+    background: #222;
+    color: #ddd;
 }
