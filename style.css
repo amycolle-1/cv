@@ -11,6 +11,16 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
+.haut_Alioune{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body.dark-mode {
+  background-color: #242323;
+  color: white;
+}
 
 .profil {
     display: flex;

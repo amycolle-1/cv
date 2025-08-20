@@ -8,7 +8,10 @@
 </head>
 <body>
     <div class="body_sadia">
-        <a href="index.html" class="btn">⬅ Retour à l’accueil</a>
+        <div class="haut_Alioune">
+            <div><a href="index.html" class="btn">⬅ Retour à l’accueil</a></div>
+            <div><img src="assets/icon/" alt="" id="image_mode" title="Changement de mode"></div>
+        </div>
         <header>
         <div class="profil">
             <div class="mon_image">
@@ -17,23 +20,23 @@
             <div class="mon_identiter">
                 <div id="nom">
                     <img src="assets/icon/nom_icon.png" alt="">
-                    <div>Badji</div>
+                    <div id="Alioune_nom"></div>
                 </div>
                 <div id="prenom">
                     <img src="assets/icon/prenom_icon.png" alt="">
-                    <div>Alioune Badara Sadia</div>
+                    <div id="Alioune_prenom"></div>
                 </div>
                 <div id="date_de_naissance">
                     <img src="assets/icon/date_de_naissance_icon.png" alt="">
-                    <div>29/02/2000 à Dakar</div>
+                    <div id="Alioune_ddn"></div>
                 </div>
                 <div id="adresse">
                     <img src="assets/icon/adresse_icon.png" alt="">
-                    <div>HLM Grand-Yoff Villa n°891</div>
+                    <div id="Alioune_adresse"></div>
                 </div>
                 <div id="profession">
                     <img src="assets/icon/profession_icon.png" alt="">
-                    <div>Developpeur Fullstack</div>
+                    <div id="Alioune_profession"></div>
                 </div>
             </div>
         </div>
@@ -46,24 +49,8 @@
                     <div>Expériences Professionnelles</div>
                 </div>
                 <div class="absb_liste_info">
-                    <h3>Développeur Web & Mobile</h3>
-                    <p>Projet Scolaire,
-                        Université Gaston Berger de Saint-Louis
-                        Depuis
-                        février 2023
-                        J'ai travaillé sur
-                        Santé Connect
-                        , une plateforme de prise de rendez-vous en lignedéveloppée avec
-                        HTML, CSS, JavaScript (front-end)
-                        et
-                        PHP (back-end)
-                        . Il aégalement réalisé une
-                        application mobile Flutter
-                        pour la gestion du pointage via
-                        QR Codes
-                        , ce qui lui a permis d'explorer les défi s des technologies web et mobiles.Aussi j'ai eu à réaliser un E-commerce en utilisant Python pour le
-                        back-end.
-                    </p>
+                    <h3 id="Alioune_titre_EP"></h3>
+                    <p id="Alioune_description_experience"></p>
                 </div>
             </div>
             <div class="les_rubrique">
@@ -71,44 +58,8 @@
                     <img src="assets/icon/fonctionnel_icon.png" alt="">
                     <div>Compétences Fonctionnelles</div>
                 </div>
-                <div class="absb_liste_info">
-                    <ol>
-                    <li><h3>Gestion de projets et organisation</h3></li>
-                    <ul>
-                        <li>Capacité à structurer et organiser des tâches sur des projets web et mobile.</li>
-                        <li>Planification des étapes de développement et suivi du travail en équipe.</li>
-                    </ul>
-                
-                    <li><h3>Communication et travail en équipe</h3></li>
-                    <ul>
-                        <li>Collaboration efficace avec des collègues et partenaires (ex. projets avec Xarala et club informatique).</li>
-                        <li>Capacité à expliquer et présenter des concepts techniques à des non-techniciens.</li>
-                    </ul>
-                
-                    <li><h3>Analyse et résolution de problèmes</h3></li>
-                    <ul>
-                        <li>Identification rapide des problèmes techniques ou fonctionnels.</li>
-                        <li>Proposition de solutions adaptées pour améliorer les applications ou la gestion des projets.</li>
-                    </ul>
-                
-                    <li><h3>Utilisation d’outils numériques</h3></li>
-                    <ul>
-                        <li>Maîtrise de logiciels et plateformes de gestion de projets (ex. Git, Trello, Jira).</li>
-                        <li>Utilisation d’outils bureautiques et en ligne pour le suivi et la communication.</li>
-                    </ul>
-                
-                    <li><h3>Sens de l’innovation et créativité</h3></li>
-                    <ul>
-                        <li>Proposition d’idées pour des projets interactifs (ex. webinaire, application e-commerce, chatbot médical).</li>
-                        <li>Adaptation des solutions aux besoins des utilisateurs et du public cible.</li>
-                    </ul>
-                
-                    <li><h3>Gestion de contenu et présentation</h3></li>
-                    <ul>
-                        <li>Structuration et mise en forme des informations pour les plateformes web et applications.</li>
-                        <li>Création de présentations claires et accessibles, à la fois visuelles et fonctionnelles.</li>
-                    </ul>
-                </ol>
+                <div class="absb_liste_info Alioune_CF">
+                    
                 </div>
             </div>
             <div class="les_rubrique">
@@ -117,22 +68,8 @@
                     <div>Compétences Techniques</div>
                 </div>
                 <div class="absb_liste_info">
-                    <h3>Compétences Techniques</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>Django</li>
-                        <li>Figma</li>
-                        <li>PHP</li>
-                        <li>SQL</li>
-                        <li>Flutter</li>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>Java</li>
-                        <li>Angular</li>
-                    </ul>
+                    <h3 id="Alioune_titre_CT"></h3>
+                    <div id="Alioune_liste_CT"></div>
                 </div>
             </div>
             <div class="les_rubrique">
@@ -140,26 +77,12 @@
                     <img src="assets/icon/etude_icon.png" alt="">
                     <div>Etudes</div>
                 </div>
-                <div class="absb_liste_info">
-                    <h3>Études</h3>
-                    <ul>
-                        <li>
-                            <strong>Licence Informatique (Système d'information)</strong><br>
-                            Université Gaston Berger, Saint-Louis<br>
-                            Depuis janvier 2025
-                        </li>
-                        <li>
-                            <strong>Baccalauréat</strong><br>
-                            Lycée Lamine Gueye, Dakar, DK, Senegal<br>
-                            D'octobre 2019 à août 2020
-                        </li>
-                        <li>
-                            <strong>BFEM</strong><br>
-                            CEM Abbe Arsene Fridoil, Dakar, DK, Senegal<br>
-                            D'octobre 2015 à juillet 2016
-                        </li>
-                    </ul>
+               <div class="absb_liste_info">
+                    <h3 id="Alioune_titre_etude"></h3>
+                    <div id="Alioune_liste_etude"></div>
                 </div>
+
+
             </div>
             <div class="les_rubrique">
                 <div class="rubrique1">
@@ -167,12 +90,8 @@
                     <div>Langues</div>
                 </div>
                 <div class="absb_liste_info">
-                    <h3>Langues</h3>
-                    <ul>
-                        <li>Français</li>
-                        <li>Wolof</li>
-                        <li>Anglais</li>
-                    </ul>
+                    <h3 id="Alioune_titre_langue">Langues</h3>
+                    <div id="Alioune_liste_langue"></div>
                 </div>
             </div>
         </div>
@@ -180,13 +99,14 @@
     <footer>
         <div class="contact">
             <h4>Contact</h4>
-            <p>Email : sadiabadji9@gmail.com</p>
-            <p>Téléphone : +221 77 826 99 44</p>
+            <p>Email : <span id="Alioune_email"></span></p>
+            <p>Téléphone : <span id="Alioune_telephone"></span></p>
         </div>
         <div class="copyright">
             <p>&copy; 2025 Alioune Badji. Tous droits réservés.</p>
         </div>
     </footer>
+    <script src="script.js"></script>
     </div>
 </body>
 </html>
