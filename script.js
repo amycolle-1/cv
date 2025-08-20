@@ -1,4 +1,4 @@
-let body = document.querySelector("body");
+let body = document.querySelector(".Sadia");
 let image_mode = document.getElementById("image_mode");
 let les_informations = document.querySelector(".les_informations");
 
